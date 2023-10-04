@@ -1,0 +1,167 @@
+.body-part {
+    margin: 0px;
+}
+
+.primary-btn {
+    padding: 8px 24px;
+    font-size: 23px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4693af;
+    color: #fff;
+}
+
+.primary-btn:hover {
+    background-color: #00aeef;
+    border-radius: 8px;
+    color: #ffff;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b5d6d6;
+    position: sticky;
+    top: 0;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+    padding-left: 30px;
+}
+
+.header ul {
+    display: flex;
+    padding-right: 50px;
+}
+
+.header a {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 23px;
+    text-decoration: none;
+    color: #2e2c2c;
+
+}
+
+.header a:hover {
+    color: #0541e7;
+}
+
+/*main section strat*/
+.section {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    padding-top: 100px;
+    padding-left: 70px;
+    padding-right: 80px;
+}
+
+.section-1 h2 {
+    font-size: 45px;
+    padding-right: 330px;
+}
+
+.js {
+    color: #ff5e00;
+}
+
+.section-1 h3 {
+    margin-top: -30px;
+    color: #504c4c;
+    font-size: 23px;
+}
+
+.section-1 p {
+    color: #504e4e;
+    font-size: 18px;
+}
+
+.section-2 img {
+    width: 500px;
+    height: 350px;
+    border-radius: 7px;
+}
+
+/*main section end */
+
+.sub-section h2 {
+    font-size: 45px;
+    padding-left: 85px;
+}
+
+.sub-section h3 {
+    margin-top: -30px;
+    color: #504c4c;
+    font-size: 23px;
+    padding-left: 85px;
+}
+
+.sub-section p {
+    color: #504e4e;
+    font-size: 18px;
+    padding-left: 85px;
+}
+
+.sub-section-btn {
+    padding-left: 85px;
+
+}
+
+/* sub section end  */
+
+.experiences-header {
+    padding-left: 70px;
+    font-size: 35px;
+}
+
+.experiences {
+    display: flex;
+    padding: 0px 70px;
+    gap: 145px;
+}
+
+.learner {
+    border-left: 4px #4693af solid;
+    background-color: #cccdce;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 8px 5px 18px 1px #6b7070;
+}
+
+.learner:hover {
+    box-shadow: 12px 8px 12px 1px #6b7070;
+    background-color: #fff;
+    border-radius: px;
+}
+
+.learner h2 {
+    font-size: 25px;
+    color: #00aeef;
+}
+
+.learner p {
+    color: #504e4e;
+    font-size: 18px;
+}
+/* footer */
+.developar {
+    text-align: center;
+    padding-top: 80px;
+    font-size: 15px;
+    color: #757575;
+}
+
+.developar-sub {
+    color: #9600FF;
+}
+
+a {
+    text-decoration: none;
+    color: #757575;
+}
